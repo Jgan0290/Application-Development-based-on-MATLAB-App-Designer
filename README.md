@@ -35,3 +35,5 @@ BuildConnection((TLM);
 # Move the top motor to angle 10
 TopMotor_Move(TLM, 10);
 ```
+# MATLAB App Designer
+Before start using the system control, check the location for the SDK file for the Andor Spectrograph and CCD to prevent any error!
