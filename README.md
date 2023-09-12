@@ -4,6 +4,7 @@ This project introduces a comprehensive system development endeavor that leverag
 <p align="center">
 <img width="521" alt="Laboratory Goniometer" src="https://github.com/Jgan0290/System-Control-based-on-MATLAB-App-Designer/assets/72658054/86d8d5d3-a6bb-4b82-bb1e-2f07b931431c">
 </p>
+
 Key Components:
 1. MATLAB App Designer: MATLAB's App Designer provides an intuitive and interactive platform for building custom graphical user interfaces (GUIs). It offers a powerful environment for creating a user-friendly front-end for our laboratory goniometer system, enabling users to control and monitor the hardware seamlessly.
 
