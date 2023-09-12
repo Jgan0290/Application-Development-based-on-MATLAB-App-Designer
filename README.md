@@ -25,8 +25,6 @@ Projects Goals:
 - Andor MATLAB SDK installed (Requested from Andor Technology Customer Support)
 - Andor MATLAB Spectrograph Setup installed (Requested from Andor Technology Customer Support)
 
-# App Designer
-
 # NR360S/M Motorised 360° Rotation Stage Testing
 Example Usage:
 ```
@@ -37,6 +35,3 @@ BuildConnection((TLM);
 # Move the top motor to angle 10
 TopMotor_Move(TLM, 10);
 ```
-
-# Andor Spectrometer Testing
-Example Usage:
