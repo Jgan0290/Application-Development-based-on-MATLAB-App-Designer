@@ -36,4 +36,4 @@ BuildConnection((TLM);
 TopMotor_Move(TLM, 10);
 ```
 # MATLAB App Designer
-Before start using the system control, check the location for the SDK file for the Andor Spectrograph and CCD to prevent any error!
+Before start using the GUIs, replace the file location for the SDK file for the Andor Spectrograph and CCD to prevent any error!!!
