@@ -1,4 +1,3 @@
-# System-Control-based-on-MATLAB-App-Designer
 # Introduction
 This project introduces a comprehensive system development endeavor that leverages MATLAB App Designer, Thorlabs stepper motors and motor controller, and the Andor spectrometer coupled with a CCD camera. By combining these powerful components, I aim to create a versatile and user-friendly laboratory goniometer system that enables researchers to conduct experiments with precision and ease.
 
