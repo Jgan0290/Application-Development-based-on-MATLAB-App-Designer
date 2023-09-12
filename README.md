@@ -9,6 +9,11 @@ Key Components:
 
 3. Andor Spectrometer and CCD Camera: The Andor spectrometer and CCD camera(Andor Shamrock SR-303i & Andor iDus DV420A-OE) provide high-resolution spectral data acquisition. By interfacing with MATLAB, researchers can capture and process spectral information with ease, making it suitable for a wide range of spectroscopy experiments.
 
+Projects Goals:
+- Develop a MATLAB App Designer-based graphical interface for controlling the goniometer system.
+- Implement real-time communication and control of the Thorlabs stepper motor for precise angular positioning.
+- Integrate the Andor spectrometer and CCD camera for spectral data acquisition and analysis.
+
 # Requirements
 - [MATLAB](https://www.mathworks.com/products/matlab.html) installed
 - [Thorlabs Kinesis Software](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=10285) installed 
