@@ -24,6 +24,29 @@ Projects Goals:
 - Andor MATLAB SDK installed (Requested from Andor Technology Customer Support)
 - Andor MATLAB Spectrograph Setup installed (Requested from Andor Technology Customer Support)
 
+# Files
+- SystemApp.mlapp - MATLAB App Designer file containing the GUI design and source code
+  * Before start using the GUIs, replace the file location for the SDK file for the Andor Spectrograph and CCD to prevent any error!!!
+- MotorClass.m - Class definition for stepper motor control functions
+- readdatafile.m - Function to load and parse data files saved by the application
+- displaydata.m - Set of functions to visualize the spectral data
+
+# Usage
+To take a full spectral scan:
+1. Connect the stepper motors, spectrograph and camera using the GUI button
+2. Home the stepper motors to initialise their zero angle position
+3. Set the angle range, step sizes and spectrometer parameters
+4. Click "Start" to begin the automated hemispherical scan
+5. Real-time spectral data will be plotted as it is acquired
+6. After completion, view the visualized data on the other tab
+7. The data is also saved to file for further analysis
+
+For single test captures:
+1. Navigate to the Test Data Acquisition tab
+2. Set the motor angles and spectrometer values
+3. Click the "Take Background" or "Take Hyperspectral" buttons
+4. The data will be immediately captured and displayed
+
 # NR360S/M Motorised 360° Rotation Stage Testing
 Example Usage:
 ```
@@ -34,5 +57,3 @@ BuildConnection((TLM);
 # Move the top motor to angle 10
 TopMotor_Move(TLM, 10);
 ```
-# MATLAB App Designer
-Before start using the GUIs, replace the file location for the SDK file for the Andor Spectrograph and CCD to prevent any error!!!
