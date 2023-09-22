@@ -32,6 +32,9 @@ Projects Goals:
 - displaydata.m - Set of functions to visualize the spectral data
 
 # Usage
+<p align="center">
+<img width="452" alt="GUI" src="https://github.com/Jgan0290/Application-Development-based-on-MATLAB-App-Designer/assets/72658054/335bab19-b3bd-47c4-881a-5eca75b0ebe2">
+</p>
 To take a full spectral scan:
 1. Connect the stepper motors, spectrograph and camera using the GUI button
 2. Home the stepper motors to initialise their zero angle position
